@@ -1,0 +1,303 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* General page settings */
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url("images/background.png") center/cover fixed no-repeat;
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.hero {
+  display: flex;                  /* Enable Flexbox */
+  flex-direction: column;         /* Stack h2, p, and button vertically */
+  justify-content: center;        /* Center vertically */
+  align-items: center;            /* Center horizontally */
+  text-align: center;             /* Align text inside */
+  
+  background: rgba(0,0,0,0.5);    /* Transparent overlay */
+  border-radius: 12px;
+  margin: 0;                      /* Remove top/bottom margins */
+}
+
+.container {
+  display: flex;                  /* Enable Flexbox */
+  flex-direction: column;         /* Stack h2, p, and button vertically */
+  justify-content: center;        /* Center vertically */
+  align-items: center;            /* Center horizontally */
+  text-align: center;             /* Align text inside */
+  
+  background: rgba(0,0,0,0.5);    /* Transparent overlay */
+  border-radius: 12px;
+  margin: 0;                      /* Remove top/bottom margins */
+}
+
+
+
+/* Header (top navigation bar) */
+header {
+  background: #47173D;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+header img {
+  height: 70px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between items */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-logo-btn {
+  padding: 6px 10px; /* same padding as text buttons */
+}
+
+.nav-logo-btn img {
+  height: 20px; /* match text height */
+  width: auto;
+}
+
+/* Navigation links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+  font-size: 1rem;
+  background: rgba(0,0,0,0.4);
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: rgba(0,0,0,0.7);
+}
+
+/* Navigation image styling */
+.nav-img {
+  height: 40px;        /* adjust size to match nav height */
+  vertical-align: middle;
+  margin-left: 10px;   /* small gap from "Contact" */
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+/* Containers for page content */
+.container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.4rem; }
+
+/* Paragraphs */
+p {
+  font-size: 1.05rem;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Fleet grid */
+.fleet {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(800px, 2.5fr));
+  gap: 30px;
+}
+
+/* Fleet cards */
+.fleet-card {
+  background: rgba(0,0,0,0.6);
+  border: 1px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.fleet-card:hover {
+  transform: scale(1.03);
+}
+
+.fleet-card img {
+  width: 100%;
+  height: 180px;
+  height: auto;        /* Keeps aspect ratio */
+  object-fit: contain; /* Ensures no cropping */
+  display: block;      /* Removes extra bottom spacing */
+}
+
+.fleet-card h3 {
+  margin: 15px;
+  font-size: 1.3rem;
+}
+
+/* About Section */
+.about-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-form input,
+.about-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Contact Section */
+.contact-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-form button {
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #ffb700;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #e0a200;
+}
+
+/* Footer */
+/* Full height sticky footer layout */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Footer */
+footer {
+  background: rgba(0,0,0,0.7);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Big Button Styling */
+.big-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 20px 60px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  background-color: #ffb700;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.big-button:hover {
+  background-color: #e0a200;
+  transform: scale(1.05);
+}
