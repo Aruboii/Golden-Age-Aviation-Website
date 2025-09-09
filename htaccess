@@ -1,7 +1,0 @@
-# Remove .html from URLs
-RewriteEngine On
-
-# If the request doesn't include a file or directory
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^([^/]+)/?$ $1.html [L]
