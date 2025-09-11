@@ -334,13 +334,9 @@ footer {
   background-color: #e0a200;
   transform: scale(1.05);
 }
-
 .pdf-container {
-  max-width: 90%;   /* keep some margin on big screens */
   margin: 2rem auto;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  border-radius: 8px;
-  overflow: hidden;
+  max-width: 900px;
 }
 
 .pdf-container iframe {
@@ -350,6 +346,7 @@ footer {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
 
 
 
