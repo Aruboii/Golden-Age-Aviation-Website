@@ -341,7 +341,7 @@ footer {
 }
 
 .pdf-container iframe {
-  width: 1200px;
+  width: 75%;
   height: 1000px; /* adjust height */
   border: none;
   border-radius: 12px;
@@ -353,6 +353,7 @@ footer {
   background: rgba(0,0,0,0.5);
   border-radius: 10px;
 }
+
 
 
 
