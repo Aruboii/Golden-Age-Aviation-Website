@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: #47173D
+  background-color: #47173D
   color: white;
   font-size: 16px;
   line-height: 1.6;
@@ -358,6 +358,7 @@ footer {
   background: rgba(0,0,0,0.5);
   border-radius: 10px;
 }
+
 
 
 
