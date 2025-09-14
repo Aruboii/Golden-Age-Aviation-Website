@@ -5,8 +5,7 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background: url("images/background.png") center/cover fixed no-repeat;
-  color: white;
+  color: #47173D;
   font-size: 16px;
   line-height: 1.6;
 }
@@ -358,6 +357,7 @@ footer {
   background: rgba(0,0,0,0.5);
   border-radius: 10px;
 }
+
 
 
 
