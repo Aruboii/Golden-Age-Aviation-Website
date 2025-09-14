@@ -133,7 +133,7 @@ nav a:hover {
 
 /* Containers for page content */
 .container {
-  max-width: 1100px;
+  max-width: 1600px;
   margin: 40px auto;
   padding: 20px;
   background: rgba(0,0,0,0.5);
@@ -358,6 +358,7 @@ footer {
   background: rgba(0,0,0,0.5);
   border-radius: 10px;
 }
+
 
 
 
