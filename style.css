@@ -460,7 +460,7 @@ a:hover {
   margin: 5px 0;
   font-size: 18px;
   font-weight: bold;
-  color: #222;   /* fixes the white text */
+  color: black;   /* fixes the white text */
 }
 
 .team-member p {
@@ -489,6 +489,7 @@ a:hover {
 .team-row.advisors {
   gap: 60px;
 }
+
 
 
 
