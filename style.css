@@ -438,7 +438,7 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 60px;
-  margin: 40px 0;
+  margin: 10px 0;
 }
 
 .team-row.vertical {
@@ -502,6 +502,7 @@ a:hover {
 .tree li::after {
   top: 0;                 /* align lines properly */
 }
+
 
 
 
