@@ -438,31 +438,31 @@ a:hover {
   color: #2d3748;
 }
 
-/* Ensure rows are flex */
 .team-row {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
   gap: 40px;
   margin-bottom: 50px;
-}
-
-/* Different row types with wider spacing */
-.team-row.single {
-  justify-content: center;
-}
-
-.team-row.double {
-  justify-content: center;
-  gap: 120px;
+  flex-wrap: wrap;
 }
 
 .team-row.triple {
-  justify-content: center;
-  gap: 80px;
+  gap: 120px; /* COO, Director, CFO spacing */
 }
 
+.team-row.under-director {
+  gap: 60px;
+  max-width: 900px;
+  margin: 0 auto 50px auto;
+  flex-wrap: wrap;
+}
+
+.team-row.advisors {
+  justify-content: center;
+  gap: 60px;
+}
+
+/* Styling of members */
 .team-member {
   text-align: center;
   padding: 20px 30px;
@@ -490,7 +490,9 @@ a:hover {
   font-size: 15px;
   margin: 2px 0;
   color: #555;
+  text-align: center;
 }
+
 
 
 
