@@ -427,51 +427,28 @@ a:hover {
 
 .team-section {
   text-align: center;
-  padding: 60px 20px;
-  background: #fff;
-}
-
-.team-section h2 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 50px;
-  color: #2d3748;
+  padding: 50px;
 }
 
 .team-row {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  margin-bottom: 50px;
-  flex-wrap: wrap;
-}
-
-.team-row.triple {
-  gap: 120px; /* COO, Director, CFO spacing */
-}
-
-.team-row.under-director {
   gap: 60px;
-  max-width: 900px;
-  margin: 0 auto 50px auto;
-  flex-wrap: wrap;
+  margin: 40px 0;
 }
 
-.team-row.advisors {
-  justify-content: center;
-  gap: 60px;
+.team-row.vertical {
+  flex-direction: column;
+  gap: 25px;
 }
 
-/* Styling of members */
 .team-member {
-  text-align: center;
+  background: #f9f9f9;
   padding: 20px 30px;
   border-radius: 12px;
-  background: #f9f9f9;
   box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   min-width: 220px;
-  max-width: 250px;
+  transition: 0.3s;
 }
 
 .team-member:hover {
@@ -480,18 +457,38 @@ a:hover {
 }
 
 .team-member h3 {
+  margin: 5px 0;
   font-size: 18px;
-  font-weight: 700;
-  margin: 8px 0 6px;
-  color: #1a202c;
+  font-weight: bold;
 }
 
 .team-member p {
-  font-size: 15px;
-  margin: 2px 0;
+  margin: 0;
   color: #555;
-  text-align: center;
 }
+
+.team-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-branch-line {
+  width: 2px;
+  height: 30px;
+  background: #333;
+  margin: 5px 0;
+}
+
+.team-row.branch {
+  gap: 120px; /* spacing between DevOps and Events columns */
+}
+
+.team-row.advisors {
+  gap: 60px;
+}
+
+
 
 
 
