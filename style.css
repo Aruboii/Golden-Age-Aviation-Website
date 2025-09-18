@@ -437,13 +437,10 @@ a:hover {
 .team-row {
   display: flex;
   justify-content: center;
-  gap: 60px;
-  margin: 40px 0;
 }
 
 .team-row.vertical {
   flex-direction: column;
-  gap: 0px;
 }
 
 .team-member {
@@ -503,6 +500,7 @@ a:hover {
 .tree li::after {
   top: 0;                 /* align lines properly */
 }
+
 
 
 
