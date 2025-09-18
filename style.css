@@ -460,12 +460,14 @@ a:hover {
   margin: 5px 0;
   font-size: 18px;
   font-weight: bold;
-  color: black;   /* fixes the white text */
+  color: black; /* fixes the white text */
+  text-align: center;
 }
 
 .team-member p {
   margin: 0;
-  color: black;   /* softer gray for role text */
+  color: black; /* softer gray for role text */
+  text-align: center;
 }
 
 
@@ -498,6 +500,7 @@ a:hover {
 .tree li::after {
   top: 0;                 /* align lines properly */
 }
+
 
 
 
