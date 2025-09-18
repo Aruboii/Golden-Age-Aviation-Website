@@ -6,6 +6,10 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   background: url("images/background.png");
+  background-size: cover;                /* cover entire screen */
+  background-repeat: no-repeat;          /* stop repeating */
+  background-attachment: fixed;          /* makes it stay while scrolling */
+  background-position: center;
   color: white;
   font-size: 16px;
   line-height: 1.6;
@@ -500,6 +504,7 @@ a:hover {
 .tree li::after {
   top: 0;                 /* align lines properly */
 }
+
 
 
 
