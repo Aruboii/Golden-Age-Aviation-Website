@@ -439,24 +439,37 @@ a:hover {
   color: #2d3748;
 }
 
-/* Grid layout */
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+/* Each row aligned neatly */
+.team-row {
+  display: flex;
+  justify-content: center;
   gap: 40px;
-  justify-items: center;
+  margin-bottom: 50px;
 }
 
-/* Each member */
+/* Special spacing for different row types */
+.team-row.single {
+  justify-content: center;
+}
+
+.team-row.double {
+  justify-content: center;
+  gap: 120px; /* more gap so it spreads nicely */
+}
+
+.team-row.triple {
+  justify-content: center;
+  gap: 80px;
+}
+
 .team-member {
   text-align: center;
-  padding: 20px;
+  padding: 20px 30px;
   border-radius: 12px;
   background: #f9f9f9;
-  box-shadow: 0px 5px 20px rgba(0,0,0,0.08);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;
-  max-width: 250px;
+  min-width: 220px;
 }
 
 .team-member:hover {
@@ -476,6 +489,8 @@ a:hover {
   margin: 2px 0;
   color: #555;
 }
+
+
 
 
 
