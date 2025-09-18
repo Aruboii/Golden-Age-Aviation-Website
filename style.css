@@ -485,7 +485,6 @@ a:hover {
   width: 2px;
   height: 30px;
   background: #333;
-  margin: 5px 0;
 }
 
 .team-row.branch {
@@ -504,6 +503,7 @@ a:hover {
 .tree li::after {
   top: 0;                 /* align lines properly */
 }
+
 
 
 
