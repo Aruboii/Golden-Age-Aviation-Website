@@ -465,7 +465,7 @@ a:hover {
 
 .team-member p {
   margin: 0;
-  color: #555;   /* softer gray for role text */
+  color: black;   /* softer gray for role text */
 }
 
 
@@ -489,6 +489,7 @@ a:hover {
 .team-row.advisors {
   gap: 60px;
 }
+
 
 
 
