@@ -490,6 +490,14 @@ a:hover {
   gap: 60px;
 }
 
+.tree li {
+  margin: 0;              /* remove unwanted gaps */
+  padding: 10px 0 0 0;    /* tighten spacing */
+}
+.tree li::before,
+.tree li::after {
+  top: 0;                 /* align lines properly */
+}
 
 
 
