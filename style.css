@@ -503,6 +503,102 @@ a:hover {
   top: 0;                 /* align lines properly */
 }
 
+.card {
+  background: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  display: inline-block;
+  margin: 10px;
+  min-width: 180px;
+  position: relative;
+}
+
+/* Top row */
+.top-row {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+/* Connector line under top row */
+.top-row::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 30px;
+  border-top: 2px solid #000;
+  margin: 0 auto;
+  width: 70%;
+}
+
+/* Branches section */
+.branches {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+}
+
+.branch {
+  flex: 1;
+  position: relative;
+}
+
+.branch .card {
+  margin-bottom: 25px;
+}
+
+/* Lines for each branch */
+.branch::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 30px;
+  background: #000;
+}
+
+/* Sub-branch (event organizers under director) */
+.sub-branch {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* Line from director to sub-branch */
+.sub-branch::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 25px;
+  background: #000;
+}
+
+/* Horizontal connector between sub-branch members */
+.sub-branch::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #000;
+  margin: auto;
+  width: 70%;
+}
 
 
 
