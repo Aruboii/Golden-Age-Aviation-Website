@@ -273,6 +273,11 @@ html, body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  background: url("images/background.png");
+  background-size: cover;                /* cover entire screen */
+  background-repeat: no-repeat;          /* stop repeating */
+  background-attachment: fixed;          /* makes it stay while scrolling */
+  background-position: center;
 }
 
 .airlines-grid {
@@ -616,3 +621,4 @@ h2 {
   margin: auto;
   width: 70%;
 }
+
