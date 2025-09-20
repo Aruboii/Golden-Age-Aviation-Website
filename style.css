@@ -503,13 +503,6 @@ a:hover {
   top: 0;                 /* align lines properly */
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background: url('your-background.jpg') no-repeat center center/cover;
-  margin: 0;
-  padding: 30px;
-}
-
 .team-container {
   background: rgba(0, 0, 0, 0.5); /* translucent box like your screenshot */
   padding: 40px;
@@ -623,49 +616,3 @@ h2 {
   margin: auto;
   width: 70%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
